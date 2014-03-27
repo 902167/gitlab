@@ -1,9 +1,10 @@
-Niniejszy projekt dotyczy dokumentu w formacie HTML.
-Należy utworzyć plik o nazwie index.html.
-UWAGA!! Edycji pliku należy dokonywać za pomocą edytora tekstowego pozwalającego na określanie systemu kodowania znaków.
-Dla przykładowego dokumentu kodowanie musi być ustawione na system UTF-8.
+This project concerns a document in HTML format. 
+You must create a file called index.html.
 
-Początkowa wersja dokumentu HTML:
+NOTE! Edit the file should be made using a text editor that allows to specify the character encoding system. 
+For a sample document encoding must be set to UTF-8 system.
+
+The initial version of the HTML document:
 <!DOCTYPE html>
 <html>
 	<head>

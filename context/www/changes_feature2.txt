@@ -1,11 +1,10 @@
-Zmiany wprowadzaj kolejno, zgodnie z punktami i opisem laboratorium, za każdym testując i zatwierdzając je w repozytorium:
+Make changes in a sequence, according to the points of description, after each step testing and committing them in a repository:
 
-1. Nagłówek sekcji 2:
-Rozproszony system kontroli wersji.
+1. Section 2 title: 
+Distributed revision control system.
 
-2. Treść sekcji 2:
-W rozproszonych systemach kontroli wersji (takich jak Git, Mercurial, Bazaar lub Darcs) klienci nie dostają dostępu jedynie do najnowszych wersji plików ale w pełni kopiują całe repozytorium. Gdy jeden z serwerów, używanych przez te systemy do współpracy, ulegnie awarii, repozytorium każdego klienta może zostać po prostu skopiowane na ten serwer w celu przywrócenia go do pracy.
+2. Section 2 contents:
+In distributed revision control systems (such as Git, Mercurial, Bazaar lub Darcs) clients do not get access only to the news version of files but they copy the whole repository. When one of the servers used by these systems to inter-cooperate fails, the repository of any client can simply be copied to the server in order to restore it to work.
 
-
-3. Stopka sekcji 2:
-<a href="http://git-scm.com/book/pl/Pierwsze-kroki-Wprowadzenie-do-kontroli-wersji#Rozproszone-systemy-kontroli-wersji">Git - podręcznik</a>
+3. Section 2 footer:
+<a href="http://git-scm.com/book/en/Getting-Started-About-Version-Control#Distributed-Version-Control-Systems">Git - manual</a>
