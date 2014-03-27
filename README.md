@@ -1,40 +1,37 @@
 gitlab
 ============
 
-Repozytorium zawiera opis laboratorium z podstaw wykorzystania systemu kontroli wersji Git, realizowanego w ramach przedmotu 'Podstawy Inżynierii Oprogramowania' prowadzonego przez Instytut Informatyki Stosowanej dla studentów kierunku Informatyka na wydziale Elektrotechniki, Elektroniki Informatyki i Automatyki Politechniki Łódzkiej.
+Repository contains the description of laboratory concerning basic usage of revision control system Git, realised during 'Software engineering' course conducted by Institute of Applied Computer Science for students of International Faculty of Engineering.
 
-Pliki:
+Files:
 ----------------
-Opis zadań laboratoryjnych znajduje się w pliku [git_lab_opis.pdf](https://github.com/radamus/gitlab/blob/master/git_lab_opis.pdf?raw=true).
-Zmiany realizowane w poszczególnych zadaniach znajdują się w odrębnych folderach umieszczonych w folderze [context](https://github.com/radamus/gitlab/tree/master/context). Obecnie folder zawiera jeden przykładowy projekt.
+Description of laboratory tasks is in file [git_lab_desc.pdf](https://github.com/tkowals/gitlab/blob/master/git_lab_desc.pdf?raw=true).
+Changes that will be introduced in particular tasks are located separate folders inside folder [context]
+(https://github.com/tkowals/gitlab/tree/master/context). 
+Currently the folder contains one exemplary project.
 
-Koncepcja
+Concept
 -----------------
-Struktura laboratorium oddziela problem kontroli wersji (który jest tematem laboratorium), od projektu podlegającego kontroli wersji (który jest tylko przykładem - kontekstem). Zmiany, które należy wprowadzać w ramach przykładowego projektu, opisane są niezależnie, w osobnych plikach. Możliwa jest, dzięki temu, zmiana kontekstu kontroli wersji. Domyślnie jest to strona WWW, ale można wprowadzić kontekst bardziej programistyczny (np. projekt w Javie) lub temat nie związany z dziedziną wytwarzania oprogramowania (np. opracowywanie dokumentu ustawy). Ograniczeniem jest struktura laboratorium wprowadzająca określony scenariusz zmian.
-Taka generyczność wymusza również adekwatny opis laboratorium, w którym np. zamiast określenia: "Otwórz stronę w przeglądarce w celu kontroli poprawności struktury po zmianach" znajduje się treść: "Przetestuj poprawność wprowadzonych zmian". Efektem takiego zabiegu jest powstanie sytuacji, w które student sam musi określić sposób kontroli poprawności, w zależności od rodzaju przykładu.
+The structure of laboratory separates the problem of revision control system (which is the main topic) from a project being controlled (which is only an example - context). Changes, which are to be introduced within the example project, are described independently in individual files. The separation enables switching the exemplary context of revision control. By the default it is a webpage, but other types of context are possible, i.e. connected with programming (e.g. Java project) or with software development (e.g. preparation of Law document). The structure of laboratory defines a scenario of introducing changes.
+Such generality enforces an adequate description of the laboratory, e.g. instead of the term "Open this page in a browser to check the correctness of the structure after the changes" is a message: "Test the correctness of the changes.". The effect of this operation is a situation in which the student himself must determine how to control the correctness, depending on the type of example.
 
-
-Scenariusze 
+Scenarios 
 ----------------
-1. Praca indywidualna
+1. Individual work
 
-    1. Inicjalizacja i połączenie ze sobą repozytorium lokalnego oraz zdalnego.
-  2. Wersja początkowe projektu.
-  3. Utworzenie gałęzi dla odrębnych cech (feature branches).
-  4. Częściowy rozwój cech.
-  5. Wprowadzenie zmiany w gałęzi master (bugFix) i scalenie jej z gałęziami cech.
-  6. Finalizacja implementacji cech.
-  7. Scalenie cech z gałęzią master.
-  8. Wysłanie do zdalnego repozytorium rezultatów i utworzenie wydania (release) projektu.
+  1. Initialization and interconnecting local and remote repository.
+  2. Initial version of the project.
+  3. Creation of branches for seperate features (feature branches).
+  4. Partial feature development.
+  5. Introducing change in master branch (bugFix) and merging it with feature branches.
+  6. Finalizing feature implementation.
+  7. Merging features with master branch.
+  8. Sending results to remote repository and creation of project release.
 
-2. Praca zespołowa 
+2. Teamwork
 
-  1. Zdalne "sklonowanie" projektu kolegi/koleżanki na platformie GitHub i utworzenie na jego podstawie repozytorium lokalnego.
-  2. Rozwój cechy 3.
-  3. Wysłanie zmian do zdalnego repozytorium.
-  4. Wysłanie informacji o zmianach (pull request) do właściciela projektu.
-  5. Wprowadzenie zmian wykonanych przez kolegę/koleżankę do swojego repozytorium zdalnego i utworzenie kolejnego wydania projektu.
-
-TODO
---------------
-1. Inne przykłady (konteksty kontroli wersji)
+  1. Remote "cloning" of colleague project on GitHub platform and establishment of local repository on its bases. 
+  2. Development of feature 3.
+  3. Sending changes to remote repository.
+  4. Sending information about changes (pull request) to project owner.
+  5. Introduction of changes made ​​by a colleague to your remote repository and create the next release of the project.
