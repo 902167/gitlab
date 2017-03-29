@@ -3,9 +3,12 @@ gitlab
 
 Repository contains the description of laboratory concerning basic usage of revision control system Git, realised during 'Software engineering' course conducted by Institute of Applied Computer Science for students of International Faculty of Engineering.
 
-Files:
+Step by step - instruction
 ----------------
-Description of laboratory tasks is in file [git_lab_desc.pdf](https://github.com/tkowals/gitlab/blob/master/git_lab_desc.pdf?raw=true).
+https://docs.google.com/document/d/1MOhBDTFdlmSsKqTe3mXJfRINtkFLWpMSN6zmlSCuMHk/pub
+
+Files describing the project under revision control:
+----------------
 Changes that will be introduced in particular tasks are located separate folders inside folder [context]
 (https://github.com/tkowals/gitlab/tree/master/context). 
 Currently the folder contains one exemplary project.
